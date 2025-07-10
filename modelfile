@@ -1,0 +1,1 @@
+FROM hf.co/unsloth/gemma-3-4b-it-qat-GGUF:Q4_K_M

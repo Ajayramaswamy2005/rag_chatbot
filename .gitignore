@@ -1,12 +1,37 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Virtual Environments
 env/
-venv/
+venv*/
+.venv/
+
+# Environment Files
 .env
+
+# Databases
 *.db
 *.sqlite3
-.DS_Store
-.idea/
+
+# VSCode / IDEs
 .vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Qdrant/Vector store
+storage/
+snapshots/
+.qdrant*
+*.exe
+*.log
+
+# Ollama
+*.gguf
+
+# Streamlit
+.streamlit/
